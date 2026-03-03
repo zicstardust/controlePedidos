@@ -18,8 +18,8 @@ public class ModuloConexao {
         String driver = "com.mysql.cj.jdbc.Driver";
         //armazenando informações referente ao banco de dados
         String url = "jdbc:mysql://localhost:3306/gestaopedidos?characterEncoding=utf-8"; //useTimezone=true&serverTimezone=UTC
-        String user = "root";
-        String senha = "IFROOcrxi18$";
+        String user = "gestao";
+        String senha = "password";
         //estabelecer a conexão com o banco
         try {
             Class.forName(driver);

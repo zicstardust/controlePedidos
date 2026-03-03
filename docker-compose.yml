@@ -1,0 +1,14 @@
+services:
+  database:
+    container_name: gestaoprojetos_db
+    image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=gestaopedidos
+      - MYSQL_USER=gestao
+      - MYSQL_PASSWORD=password
+    ports:
+      - 3306:3306/tcp
+    #volumes:
+    #  - ./data:/data
+     
